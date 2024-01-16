@@ -1,12 +1,12 @@
 * {
     font-family: 'Montserrat', sans-serif;
-    color: #fff;
+    color: #160027;
     scroll-behavior: smooth;
     box-sizing: content-box !important;
 }
 
 body {
-    background-image: radial-gradient(circle, #07000a, #06000bf2, #030008f2, #000000f6, #060011);
+    background-image: radial-gradient(circle, #1b0026, #120020f2, #0d0022f2, #0f012bf6, #0c0023);
     margin: 0;
     margin: 0;
     padding: 0;
@@ -79,6 +79,8 @@ section {
 
 section>h1 {
     margin: 30px;
+    color: rgb(255, 114, 7);
+    font-size: 40px;
 }
 
 .container {
@@ -145,7 +147,7 @@ section>h1 {
     /* width: 760px; */
     position: relative;
     color: white;
-    background: #9d9d9d23;
+    background: #9d9d9d28;
     height: 0;
     transition: all .3s ease-out;
     /* overflow-y: auto; */
@@ -163,6 +165,7 @@ section>h1 {
     font-size: 1em;
     line-height: 1.5em;
     margin: 0;
+    color: yellow;
 }
 
 .accordion .contentBx.active .content {
